@@ -27,6 +27,10 @@ resources:
   ##################
   ## deploykf-opt ##
   ##################
+  - deploykf-opt/deploykf-minio.yaml
+  - namespaces/deploykf-minio.yaml
+  - deploykf-opt/deploykf-mysql.yaml
+  - namespaces/deploykf-mysql.yaml
 
   ####################
   ## deploykf-tools ##
@@ -36,9 +40,15 @@ resources:
   ###########################
   ## kubeflow-dependencies ##
   ###########################
+  - kubeflow-dependencies/kubeflow-argo-workflows.yaml
+  - namespaces/kubeflow-argo-workflows.yaml
 
   ####################
   ## kubeflow-tools ##
   ####################
+  - kubeflow-tools/katib.yaml
   - kubeflow-tools/notebooks--jupyter-web-app.yaml
   - kubeflow-tools/notebooks--notebook-controller.yaml
+  - kubeflow-tools/pipelines.yaml
+  - kubeflow-tools/tensorboards--tensorboard-controller.yaml
+  - kubeflow-tools/tensorboards--tensorboards-web-app.yaml
