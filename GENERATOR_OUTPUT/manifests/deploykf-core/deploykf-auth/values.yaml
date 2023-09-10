@@ -127,7 +127,7 @@ dex:
 
   ## dex static passwords
   ##
-  staticPasswords: [{"email":"admin@example.com","password":{"value":"admin"}},{"email":"user1@example.com","password":{"value":"user1"}},{"email":"user2@example.com","password":{"value":"user2"}}]
+  staticPasswords: [{"email":"admin@example.com","password":{"value":"password"}},{"email":"user1@example.com","password":{"value":"password"}},{"email":"user2@example.com","password":{"value":"password"}}]
 
   ## dex connectors
   ##
