@@ -121,7 +121,8 @@ profileController:
 ########################################
 kfamAPI:
   image:
-    repository: "kubeflownotebookswg/kfam"
+    # repository: "kubeflownotebookswg/kfam"
+    repository: "tkg-harborplf.dha-tkgdemo.net/library/kubeflownotebookswg/kfam"
     tag: "v1.7.0"
     pullPolicy: "IfNotPresent"
     pullSecret: ""
