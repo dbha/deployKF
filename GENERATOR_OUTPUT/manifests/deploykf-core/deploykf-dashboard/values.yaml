@@ -77,7 +77,8 @@ centralDashboard:
 ########################################
 profileController:
   image:
-    repository: "kubeflownotebookswg/profile-controller"
+  #  repository: "kubeflownotebookswg/profile-controller"
+    repository: "tkg-harborplf.dha-tkgdemo.net/library/kubeflownotebookswg/profile-controller"
     tag: "v1.7.0"
     pullPolicy: "IfNotPresent"
     pullSecret: ""
